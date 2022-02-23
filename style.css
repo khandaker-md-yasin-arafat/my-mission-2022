@@ -43,18 +43,26 @@ section{
     color: white;
     font-weight: 700;
 }
-.mission-site h2{
+.mission-site h2, .portfolio-site h2{
     text-align: center;
     font-size: 60px;
 }
 .mission{
-    background-color: #FEE4CD;
     margin-left: 20px;
     margin-right: 20px;
     width: 400px;
     height: 400px;
     padding: 40px;
     border-radius: 40px;
+}
+.mission-color-1{
+    background-color: #FEE4CD;
+}
+.mission-color-2{
+    background-color: #FDF7F3;
+}
+.mission-color-3{
+    background-color: #E4F8FC;
 }
 .mission img{
     width: 40%;
@@ -64,4 +72,36 @@ section{
 }
 .mission p{
     font-size: 20px;
+}
+.develop-heading h3{
+    font-size: 60px;
+    line-height: 20px;
+}
+.portfolio{
+    width: 22%;
+    margin: 0 37px;
+    box-shadow: 3px 3px 10px grey;
+    border-radius: 25px;
+    padding: 25px;
+}
+.portfolio img{
+    width: 100%;
+}
+.portfolio h3{
+    font-size: 28px;
+    margin-top: 20px;
+}
+.portfolio p{
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    height: 200px;
+    padding-top: 10px;
+}
+footer h2{
+    font-size: 50px;
+    font-family: 'Yeseva One', cursive;
 }
