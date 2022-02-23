@@ -1,0 +1,45 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+section{
+    margin-bottom: 150px;
+    overflow: hidden;
+}
+.container-flex{
+    display: flex;
+}
+.half-part{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 80px;
+}
+.half-part h2{
+    font-size: 65px;
+    font-family: 'Yeseva One', cursive;
+    margin-left: 15px;
+}
+.half-part p{
+    font-size: 25px;
+    width: 700px;
+    margin-bottom: 45px;
+}
+.half-part img{
+    width: 80%;
+    margin-top: -130px;
+}
+.extra-color{
+    color: #FF6464;
+}
+.left-border{
+    border-left: 5px solid #91C483;
+}
+.link-btn{
+    text-decoration: none;
+    background-color: #91C483;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
