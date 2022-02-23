@@ -4,10 +4,10 @@ body{
 }
 section{
     margin-bottom: 150px;
-    overflow: hidden;
 }
 .container-flex{
     display: flex;
+    justify-content: center;
 }
 .half-part{
     width: 40%;
@@ -42,4 +42,26 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.mission-site h2{
+    text-align: center;
+    font-size: 60px;
+}
+.mission{
+    background-color: #FEE4CD;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    border-radius: 40px;
+}
+.mission img{
+    width: 40%;
+}
+.mission h3{
+    font-size: 35px;
+}
+.mission p{
+    font-size: 20px;
 }
